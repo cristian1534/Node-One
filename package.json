@@ -1,0 +1,25 @@
+{
+  "name": "escalab-api-proyect",
+  "version": "1.0.0",
+  "description": "Proyecto API",
+  "main": "server.js",
+  "scripts": {
+    "develop": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Cristian Machuca",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^15.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.9",
+    "slugify": "^1.6.5"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  },
+  "author": "Cristian Machuca",
+  "license": "MIT"
+}
